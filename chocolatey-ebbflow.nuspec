@@ -28,8 +28,8 @@
     <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/chocolatey-ebbflow.png</iconUrl>-->
     <!-- <copyright>Year Software Vendor</copyright> -->
     <licenseUrl>https://github.com/ebbflow-io/chocolatey-ebbflow/blob/master/tools/LICENSE</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
-    <docsUrl>https://ebbflow.io/documentation#client</docsUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!-- <docsUrl>https://ebbflow.io/documentation#client</docsUrl> -->
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>ebbflow admin networking proxy</tags>
