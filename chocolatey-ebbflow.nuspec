@@ -21,7 +21,7 @@
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
-    <title>ebbflow (Install)</title>
+    <title>ebbflow</title>
     <authors>Ebbflow</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://https://github.com/ebbflow-io/ebbflow</projectUrl>
