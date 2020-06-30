@@ -20,7 +20,7 @@
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
-    <title>ebbflow</title>
+    <title>Ebbflow Client</title>
     <authors>Ebbflow</authors>
     <projectUrl>https://github.com/ebbflow-io/ebbflow</projectUrl>
     <projectSourceUrl>https://github.com/ebbflow-io/ebbflow</projectSourceUrl>
@@ -29,8 +29,8 @@
     <licenseUrl>https://github.com/ebbflow-io/ebbflow/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <docsUrl>https://ebbflow.io/documentation#client</docsUrl>
-    <mailingListUrl>mailto:support@ebbflow.io</mailingListUrl>
-    <bugTrackerUrl>mailto:support@ebbflow.io</bugTrackerUrl>
+    <!-- <mailingListUrl>mailto:support@ebbflow.io</mailingListUrl>
+    <bugTrackerUrl>mailto:support@ebbflow.io</bugTrackerUrl> -->
     <tags>ebbflow admin networking proxy</tags>
     <summary>Client for Ebbflow.io</summary>
     <description>Client for Ebbflow.io. This is used to proxy SSH or TCP connections between ebbflow and your local server. It typically runs as a daemon which is initiated during the install process, but can also be ran directly which suits containers. See the client [code on github](https://github.com/ebbflow-io/ebbflow), or see [ebbflow.io](https://ebbflow.io) for even more information.</description>
