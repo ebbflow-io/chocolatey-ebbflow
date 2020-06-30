@@ -15,26 +15,25 @@
     <version>0.5.20</version>
     <!--PackageSourceUrl - Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed-->
     <packageSourceUrl>http://github.com/ebbflow-io/chocolatey-ebbflow</packageSourceUrl>
-    <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
-    <owners>Ebbflow</owners>
+    <owners>Ryan Gorup</owners>
     <!-- ============================== -->
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
     <title>ebbflow</title>
     <authors>Ebbflow</authors>
-    <!-- projectUrl is required for the community feed -->
     <projectUrl>https://github.com/ebbflow-io/ebbflow</projectUrl>
-    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/chocolatey-ebbflow.png</iconUrl>-->
-    <!-- <copyright>Year Software Vendor</copyright> -->
-    <licenseUrl>https://github.com/ebbflow-io/chocolatey-ebbflow/blob/master/tools/LICENSE</licenseUrl>
+    <projectSourceUrl>https://github.com/ebbflow-io/ebbflow</projectSourceUrl>
+    <iconUrl>https://ebbflow.io/resources/justeblack.png</iconUrl>
+    <copyright>2020 Ebbflow</copyright>
+    <licenseUrl>https://github.com/ebbflow-io/ebbflow/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!-- <docsUrl>https://ebbflow.io/documentation#client</docsUrl> -->
-    <!--<mailingListUrl></mailingListUrl>-->
-    <!--<bugTrackerUrl></bugTrackerUrl>-->
+    <docsUrl>https://ebbflow.io/documentation#client</docsUrl>
+    <mailingListUrl>mailto:support@ebbflow.io</mailingListUrl>
+    <bugTrackerUrl>mailto:support@ebbflow.io</bugTrackerUrl>
     <tags>ebbflow admin networking proxy</tags>
     <summary>Client for Ebbflow.io</summary>
-    <description>Client for Ebbflow.io, see the client [code on github](https://github.com/ebbflow-io/ebbflow), or see [ebbflow.io](https://ebbflow.io). </description>
+    <description>Client for Ebbflow.io. This is used to proxy SSH or TCP connections between ebbflow and your local server. It typically runs as a daemon which is initiated during the install process, but can also be ran directly which suits containers. See the client [code on github](https://github.com/ebbflow-io/ebbflow), or see [ebbflow.io](https://ebbflow.io) for even more information.</description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
     <!-- =============================== -->      
 
