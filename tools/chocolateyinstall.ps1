@@ -7,11 +7,10 @@ $packageArgs = @{
   packageName   = $packageName
   unzipLocation = $toolsDir
   fileType      = 'MSI'
-  url64bit      = 'https://github.com/ebbflow-io/ebbflow/releases/download/0.5.20/ebbflow_0.5.20.msi'
+  url64bit      = 'https://github.com/ebbflow-io/ebbflow/releases/download/1.0.1/ebbflow_1.0.1.msi'
 
   softwareName  = 'ebbflow*'
-
-  checksum64    = '0FB77CFB0428524C3DDC624CB6EE9B5E22F73FEC81A73CA562277E5C80492A4F'
+  checksum64	= '6735B2E54C2E52B153F75BAC4C5145EC44BB3B00CDF22DDF7665F269E9BFEA7B'
   checksumType64= 'sha256'
 
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
@@ -19,3 +18,6 @@ $packageArgs = @{
 }
 
 Install-ChocolateyPackage @packageArgs
+Install-ChocolateyPath "$($env:SystemDrive)\Program Files\ebbflow\bin" -PathType 'Machine'
+
+
