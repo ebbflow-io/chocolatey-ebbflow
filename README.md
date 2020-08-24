@@ -1,9 +1,11 @@
 ﻿# chocolatey-ebbflow
-Chocolatey package configuration for Ebbflow
+Chocolatey package configuration for [Ebbflow](https://ebbflow.io)
 
 Official documentation about installation is at https://ebbflow.io/documentation#client 
 
-https://github.com/ebbflow-io/ebbflow
+Client Repo: https://github.com/ebbflow-io/ebbflow
+
+View on chocolatey: https://chocolatey.org/packages/ebbflow
 
 ## Instructions to release
 - When there is a new release of the client, update the following:
@@ -14,3 +16,4 @@ https://github.com/ebbflow-io/ebbflow
   - `choco pack`
   - `choco install ebbflow -s .`
   - Test..
+- `choco push .\ebbflow.X.X.X.nupkg --source https://push.chocolatey.org`

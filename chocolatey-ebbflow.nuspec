@@ -12,7 +12,7 @@
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>1.0.1</version>
+    <version>1.1.0</version>
     <!--PackageSourceUrl - Where is this Chocolatey package located (think GitHub)? packageSourceUrl is highly recommended for the community feed-->
     <packageSourceUrl>http://github.com/ebbflow-io/chocolatey-ebbflow</packageSourceUrl>
     <owners>Ryan Gorup</owners>
@@ -34,7 +34,7 @@
     <summary>Client for Ebbflow.io</summary>
     <description>Client for Ebbflow.io. This is used to proxy SSH or TCP connections between ebbflow and your local server. It typically runs as a daemon which is initiated during the install process, but can also be ran directly which suits containers. See the client [code on github](https://github.com/ebbflow-io/ebbflow), or see [ebbflow.io](https://ebbflow.io) for even more information.</description>
     <!-- <mailingListUrl>mailto:support@ebbflow.io</mailingListUrl> -->
-    <releaseNotes>Statically link C runtime and assure ebbflow command is added to PATH</releaseNotes>
+    <releaseNotes>Add health checking and ability to use config file for run-blocking command</releaseNotes>
     <!-- =============================== -->      
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
